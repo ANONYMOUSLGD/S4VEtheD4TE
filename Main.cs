@@ -13,7 +13,7 @@ using System.IO;
 
 namespace S4VEtheD4TE
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         string RemainingTime1 = "";
 
@@ -21,31 +21,10 @@ namespace S4VEtheD4TE
         TimeSpan duration1 = new TimeSpan(3, 0, 0, 0);
         TimeSpan duration2 = new TimeSpan(7, 0, 0, 0);
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             timer1.Enabled = true;
-        }
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label1_Click_1(object sender, EventArgs e)
-        {
-
         }
 
 
