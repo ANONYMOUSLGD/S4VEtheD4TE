@@ -25,6 +25,17 @@ namespace S4VEtheD4TE
         {
             InitializeComponent();
             timer1.Enabled = true;
+
+            // Check for first use
+            if (Properties.Settings.Default.FirstUse == true)
+            {
+                MessageBox.Show("First run");
+                Properties.Settings.Default.FirstUse = false;
+            }
+            else
+            {
+                MessageBox.Show("Not first run");
+            }
         }
 
 
