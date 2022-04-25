@@ -9,7 +9,6 @@ The program will encrypt all files in the folder C:\encryption_tests. BE CAREFUL
 
 ## TODO
 
- - Check first time run
  - Write countdown to registry
  - Check if user attempt to modify registry
  - Implement file deletion
