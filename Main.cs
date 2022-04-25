@@ -81,9 +81,9 @@ namespace S4VEtheD4TE
             else
             {
                 // update time passed since last run
-                TimeSinceLastRun = new TimeSpan(0, 0, DateTime.Now.Second - Properties.Settings.Default.DateLastRun.Second);
+                TimeSinceLastRun = new TimeSpan(DateTime.Now.Day - Properties.Settings.Default.DateLastRun.Day, DateTime.Now.Hour - Properties.Settings.Default.DateLastRun.Hour, DateTime.Now.Minute - Properties.Settings.Default.DateLastRun.Minute, DateTime.Now.Second - Properties.Settings.Default.DateLastRun.Second);
 
-                MessageBox.Show("Elapsed time: " + TimeSinceLastRun.ToString());
+                //MessageBox.Show("Elapsed time: " + TimeSinceLastRun.ToString());
                 Properties.Settings.Default.TimePriceRaise = Properties.Settings.Default.TimePriceRaise.Subtract(TimeSinceLastRun);
                 Properties.Settings.Default.TimeDeleteFiles = Properties.Settings.Default.TimeDeleteFiles.Subtract(TimeSinceLastRun);
                 Properties.Settings.Default.Save();
