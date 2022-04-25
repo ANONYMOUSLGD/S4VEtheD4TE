@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using System.Runtime.InteropServices;
 using System.Linq;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace S4VEtheD4TE
 {
@@ -142,10 +143,12 @@ namespace S4VEtheD4TE
             }
             catch (CryptographicException ex_CryptographicException)
             {
+                MessageBox.Show("Error decrypting files", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Debug.WriteLine("CryptographicException error: " + ex_CryptographicException.Message);
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error decrypting files", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Debug.WriteLine("Error: " + ex.Message);
             }
 
@@ -155,6 +158,7 @@ namespace S4VEtheD4TE
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error decrypting files", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Debug.WriteLine("Error by closing CryptoStream: " + ex.Message);
             }
             finally

@@ -33,16 +33,22 @@ namespace S4VEtheD4TE
         {
             string password = textBoxPassword.Text.ToString();
 
-            try
+            if (password == "")
             {
-                Utils.DecryptFiles(password);
-                MessageBox.Show("Decryption successful!");
-                Close();
+                MessageBox.Show("Password cannot be empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (Exception error)
+            else
             {
-                MessageBox.Show("Error decrypting files", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Debug.WriteLine(error);
+                try
+                {
+                    Utils.DecryptFiles(password);
+                    Close();
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show("Error decrypting files", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Debug.WriteLine(error);
+                }
             }
         }
 
