@@ -21,6 +21,7 @@ namespace S4VEtheD4TE
 
             // Generates random string
             string password = encryption.RandomString(64);
+            Debug.WriteLine(password);
 
             // For additional security Pin the password of your files
             GCHandle gch = GCHandle.Alloc(password, GCHandleType.Pinned);
@@ -35,6 +36,28 @@ namespace S4VEtheD4TE
             }
 
             // To increase the security of the encryption, delete the given password from the memory !
+            ZeroMemory(gch.AddrOfPinnedObject(), password.Length * 2);
+            gch.Free();
+        }
+
+        public static void DecryptFiles(string password)
+        {
+            // Encrypt files
+            Encryption encryption = new Encryption();
+
+            // For additional security Pin the password of your files
+            GCHandle gch = GCHandle.Alloc(password, GCHandleType.Pinned);
+
+            foreach (string file in Directory.GetFiles(folderPath, "*.*"))
+            {
+                // Decrypt the file
+                encryption.FileDecrypt(file, file.Remove(file.Length - 3), password);
+
+                // Deletes original file
+                File.Delete(file);
+            }
+
+            // To increase the security of the decryption, delete the used password from the memory !
             ZeroMemory(gch.AddrOfPinnedObject(), password.Length * 2);
             gch.Free();
         }

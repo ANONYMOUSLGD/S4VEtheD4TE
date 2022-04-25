@@ -3,6 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Runtime.InteropServices;
 using System.Linq;
+using System.Diagnostics;
 
 namespace S4VEtheD4TE
 {
@@ -93,7 +94,7 @@ namespace S4VEtheD4TE
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                Debug.WriteLine("Error: " + ex.Message);
             }
             finally
             {
@@ -123,7 +124,7 @@ namespace S4VEtheD4TE
             AES.Key = key.GetBytes(AES.KeySize / 8);
             AES.IV = key.GetBytes(AES.BlockSize / 8);
             AES.Padding = PaddingMode.PKCS7;
-            AES.Mode = CipherMode.CFB;
+            AES.Mode = CipherMode.ECB;
 
             CryptoStream cs = new CryptoStream(fsCrypt, AES.CreateDecryptor(), CryptoStreamMode.Read);
 
@@ -141,11 +142,11 @@ namespace S4VEtheD4TE
             }
             catch (CryptographicException ex_CryptographicException)
             {
-                Console.WriteLine("CryptographicException error: " + ex_CryptographicException.Message);
+                Debug.WriteLine("CryptographicException error: " + ex_CryptographicException.Message);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                Debug.WriteLine("Error: " + ex.Message);
             }
 
             try
@@ -154,7 +155,7 @@ namespace S4VEtheD4TE
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error by closing CryptoStream: " + ex.Message);
+                Debug.WriteLine("Error by closing CryptoStream: " + ex.Message);
             }
             finally
             {

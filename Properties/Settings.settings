@@ -23,5 +23,8 @@
     <Setting Name="DateLastRun" Type="System.DateTime" Scope="User">
       <Value Profile="(Default)">2022-04-04</Value>
     </Setting>
+    <Setting Name="TimerEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

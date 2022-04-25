@@ -106,5 +106,17 @@ namespace S4VEtheD4TE.Properties {
                 this["DateLastRun"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool TimerEnabled {
+            get {
+                return ((bool)(this["TimerEnabled"]));
+            }
+            set {
+                this["TimerEnabled"] = value;
+            }
+        }
     }
 }
