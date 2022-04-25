@@ -5,7 +5,12 @@ DISCLAIMER: I am not responsible for misuse of this software for illegal activit
 
 ## Usage
 
-The program will encrypt all files in the folder C:\encryption_tests. BE CAREFUL!
+ - Create folder "encryption_tests" in drive C:\
+ - Run program
+
+BE CAREFUL! The program will encrypt all files in the folder C:\encryption_tests!
+
+For safety, run in debug mode for password recovery.
 
 ## TODO
 
