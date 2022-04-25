@@ -34,5 +34,77 @@ namespace S4VEtheD4TE.Properties {
                 this["FirstUse"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PriceRaise {
+            get {
+                return ((bool)(this["PriceRaise"]));
+            }
+            set {
+                this["PriceRaise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DeleteFiles {
+            get {
+                return ((bool)(this["DeleteFiles"]));
+            }
+            set {
+                this["DeleteFiles"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("00:00:00")]
+        public global::System.TimeSpan TimePriceRaise {
+            get {
+                return ((global::System.TimeSpan)(this["TimePriceRaise"]));
+            }
+            set {
+                this["TimePriceRaise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("00:00:00")]
+        public global::System.TimeSpan TimeDeleteFiles {
+            get {
+                return ((global::System.TimeSpan)(this["TimeDeleteFiles"]));
+            }
+            set {
+                this["TimeDeleteFiles"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("00:00:00")]
+        public global::System.TimeSpan TimePassed {
+            get {
+                return ((global::System.TimeSpan)(this["TimePassed"]));
+            }
+            set {
+                this["TimePassed"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2022-04-04")]
+        public global::System.DateTime DateLastRun {
+            get {
+                return ((global::System.DateTime)(this["DateLastRun"]));
+            }
+            set {
+                this["DateLastRun"] = value;
+            }
+        }
     }
 }
