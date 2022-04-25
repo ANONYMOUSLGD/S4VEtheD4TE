@@ -12,8 +12,6 @@ The program will encrypt all files in the folder C:\encryption_tests. BE CAREFUL
  - Write countdown to registry
  - Check if user attempt to modify registry
  - Implement file deletion
- - Link to Monero homepage
- - Wallet address
 
 ## Screenshot
 
