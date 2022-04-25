@@ -121,10 +121,16 @@
   <data name="oh-no-meme-idlememe-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oh-no-meme-idlememe-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="you-just-got-owned (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\you-just-got-owned (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1280px-Monero-Logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1280px-Monero-Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lock2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="you-just-got-owned (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\you-just-got-owned (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monero_accepted_here" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monero_accepted_here.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

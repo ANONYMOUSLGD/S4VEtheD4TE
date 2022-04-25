@@ -63,9 +63,29 @@ namespace S4VEtheD4TE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1280px_Monero_Logo_svg {
+            get {
+                object obj = ResourceManager.GetObject("1280px-Monero-Logo.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lock2 {
             get {
                 object obj = ResourceManager.GetObject("lock2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap monero_accepted_here {
+            get {
+                object obj = ResourceManager.GetObject("monero_accepted_here", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
