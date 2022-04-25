@@ -47,5 +47,20 @@ namespace S4VEtheD4TE
             Label1.Text = duration1.ToString();
             Label2.Text = duration2.ToString();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Utils.OpenDefaultBrowser("https://www.getmonero.org/get-started/what-is-monero/");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Utils.OpenDefaultBrowser("https://www.getmonero.org/get-started/faq/");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Utils.OpenDefaultBrowser("https://github.com/araujo88/S4VEtheD4TE");
+        }
     }
 }
