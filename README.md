@@ -11,7 +11,6 @@ The program will encrypt all files in the folder C:\encryption_tests. BE CAREFUL
 
  - Check if user attempt to modify system date
  - Implement payment check
- - Implement decryption
 
 ## Screenshot
 
