@@ -1,5 +1,5 @@
 # S4VEtheD4TE
-Ransomware written in C# using Windows Forms.
+Ransomware written in C# using Windows Forms. Inspired by the famous WannaCry ransomware.
 
 DISCLAIMER: I am not responsible for misuse of this software. Remember: with great power comes great responsability!
 
