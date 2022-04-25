@@ -60,7 +60,7 @@
   <data name="richTextBoxDescription.Text" xml:space="preserve">
     <value>"What happened to my computer?"
 
-Your files are encrypted, including documents, photos, videos, databases and other files are no longer available because they have been encrypted.
+Your files are encrypted, including documents, photos, videos, and other files are no longer available because they have been encrypted.
 
 "How can I recover my files?"
 
@@ -68,7 +68,7 @@ You need to submit a payment in 3 days in order to be able to decrypt your files
 
 "How do I pay?"
 
-Payment is accepted in Monero only. For more information click &lt;About Monero&gt;. Please check the current price of Monero and buy some. For more information, click &lt;How to buy Monero&gt;. After buying, send the correct amount to the wallet address specified in this window. After your payment, click &lt;Check Payment&gt;.</value>
+Payment is accepted in Monero only. For more information click &lt;About Monero&gt;. Please check the current price of Monero and buy some. For more information, click &lt;FAQ&gt;. After buying, send the correct amount to the wallet address specified in this window. After your payment, click &lt;Check Payment&gt;.</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
