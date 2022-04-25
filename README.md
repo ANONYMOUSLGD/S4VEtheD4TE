@@ -15,3 +15,7 @@ The program will encrypt all files in the folder C:\encryption_tests. BE CAREFUL
  - Implement file deletion
  - Link to Monero homepage
  - Wallet address
+
+## Screenshot
+
+![alt text](screenshot.png)
