@@ -9,7 +9,7 @@ The program will encrypt all files in the folder C:\encryption_tests. BE CAREFUL
 
 ## TODO
 
- - Check if user attempt to modify data
+ - Check if user attempt to modify system date
  - Implement file deletion
  - Implement payment check
  - Implement decryption
