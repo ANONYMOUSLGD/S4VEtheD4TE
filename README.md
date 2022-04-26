@@ -6,7 +6,7 @@ DISCLAIMER: I am not responsible for misuse of this software for illegal activit
 ## Usage
 
  - Create folder "encryption_tests" in drive C:\
- - Create some files to test encryption (for example, .txt files with some text on it)
+ - Create some files to test encryption (for example, .txt files with some text in it)
  - Run program
 
 BE CAREFUL! The program will encrypt all files in the folder C:\encryption_tests!
