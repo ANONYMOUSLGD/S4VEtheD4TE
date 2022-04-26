@@ -3,6 +3,11 @@ Ransomware written in C# using Windows Forms. Inspired by the famous WannaCry ra
 
 DISCLAIMER: I am not responsible for misuse of this software for illegal activities. Remember: with great power comes great responsability!
 
+## Requirements
+
+ - .NET Core 3.1
+ - Visual Studio 2019
+
 ## Usage
 
  - Create folder "encryption_tests" in drive C:\
